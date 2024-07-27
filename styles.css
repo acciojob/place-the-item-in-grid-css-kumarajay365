@@ -1,2 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 equal columns */
+    grid-template-rows: repeat(2, 1fr);    /* 2 equal rows */
+    width: 200px; /* Total width of the grid */
+    height: 200px; /* Total height of the grid */
+    gap: 0; /* No gap between grid items */
+}
+
+.item {
+    border: 1px solid black; /* Optional: Adds a border to visualize grid items */
+    display: flex; /* Center content within each grid item */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    font-size: 24px; /* Optional: Adjust font size */
+}
 /* Your CSS Code here. */
